@@ -1,0 +1,39 @@
+.carrousel {
+  font-family: "Inter", sans-serif;
+  padding: 0;
+}
+.carousel-indicators {
+  margin-bottom: 0;
+}
+.btn-carrousel {
+  height: 1rem !important;
+  width: 1rem !important;
+  border-radius: 100%;
+}
+.imagen {
+  height: 40vh;
+}
+.active {
+  background-color: black !important;
+}
+.desktop {
+  display: none;
+}
+@media (width >= 768px) {
+  .carrousel {
+    overflow: hidden;
+  }
+  .imagen {
+    height: max-content;
+  }
+  .carousel-caption {
+    font-size: larger;
+  }
+  .mobile {
+    display: none;
+  }
+  .desktop {
+    display: block;
+    margin: auto;
+  }
+}

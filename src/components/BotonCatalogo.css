@@ -1,0 +1,28 @@
+.btn-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.btn-catalogo {
+  width: 90%;
+  background-color: #956bb3;
+  padding: 1rem;
+  color: white;
+  font-weight: bolder;
+  border-style: none;
+  border-radius: 1rem;
+  margin: auto;
+}
+.btn-container > a {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+@media (width >= 768px) {
+  .btn-catalogo {
+    width: 30%;
+  }
+}

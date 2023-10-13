@@ -1,0 +1,22 @@
+.cardCatalogo {
+  height: 10rem;
+}
+.btn {
+  /* eliminar la siguiente linea para habilitar el boton de compra */
+  display: none;
+  background-color: #956bb3;
+  padding: 0.5rem 2rem;
+  color: white;
+  font-weight: bold;
+}
+.card-price {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 1rem 0;
+  font-weight: bolder;
+}
+.card-title {
+  color: #35cba5;
+  font-weight: bold;
+}

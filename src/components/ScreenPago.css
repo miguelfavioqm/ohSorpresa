@@ -1,0 +1,15 @@
+.btn-pago {
+  color: white;
+  border-style: none;
+  width: 90%;
+  padding: 1rem 0.5rem;
+  background-color: #956bb3;
+  border-radius: 0.5rem;
+  font-weight: bolder;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn-pago:hover {
+  opacity: 80%;
+}

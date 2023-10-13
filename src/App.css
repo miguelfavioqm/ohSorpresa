@@ -1,0 +1,24 @@
+* {
+  scroll-behavior: smooth;
+}
+.btn-whatsapp {
+  border: 1px solid #25d366;
+  border-radius: 100%;
+  background-color: white;
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+  color: #25d366;
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  z-index: 1;
+}
+.btn-whatsapp:hover {
+  opacity: 50%;
+}
+@media (width >= 768px) {
+  .btn-whatsapp {
+    padding: 1rem;
+    font-size: 3rem;
+  }
+}

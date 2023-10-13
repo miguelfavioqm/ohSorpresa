@@ -1,0 +1,32 @@
+.CarrouselComents {
+  padding: 1rem;
+}
+.title {
+  width: 100%;
+  text-align: center;
+  color: #35cba5;
+  font-weight: bolder;
+  font-size: large;
+}
+.coments {
+  margin-top: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+}
+.dos {
+  display: none;
+}
+@media (width >= 768px) {
+  .uno {
+    max-width: 45%;
+  }
+  .dos {
+    display: inline-block;
+    max-width: 45%;
+  }
+  .btn-next-comments {
+    display: none;
+  }
+}

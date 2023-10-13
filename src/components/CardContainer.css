@@ -1,0 +1,7 @@
+@media (width >= 768px) {
+  .products {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+}

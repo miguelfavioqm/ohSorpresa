@@ -1,0 +1,35 @@
+.cartaCatalogo {
+  height: 10rem;
+}
+.CatalogoContainer {
+  padding: 1rem 2rem;
+  border-style: none !important;
+}
+.CatalogoContainer-title {
+  color: #35cba5;
+  text-align: center;
+  margin: 1rem 0;
+  font-weight: bolder;
+  font-size: larger;
+}
+.CatalogoContainer-txt {
+  margin: 1rem 0;
+}
+.other {
+  display: none;
+}
+
+@media (width >= 768px) {
+  .carousel-catalogo {
+    width: 30%;
+  }
+  .btn-carousel-next {
+    display: none;
+  }
+  .carrousel-catalogo-container {
+    display: flex;
+  }
+  .other {
+    display: inline-block;
+  }
+}

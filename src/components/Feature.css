@@ -1,0 +1,22 @@
+.feature {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  text-align: center;
+  padding: 1rem;
+}
+.feature-title {
+  padding: 2rem;
+  color: #35cba5;
+  font-weight: bolder;
+  font-size: large;
+}
+.card {
+  border-style: none;
+  border-radius: 0;
+}
+@media (width >= 768px) {
+  .feature-title {
+    padding: 1rem;
+  }
+}

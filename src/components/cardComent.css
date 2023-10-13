@@ -1,0 +1,31 @@
+.cardComent {
+  background-color: white;
+  padding: 0 0 3rem 0;
+}
+.cardComent-content {
+  background-color: #35cba562;
+  padding: 2rem 1rem;
+}
+.cardComent-content-txt {
+  font-size: small;
+  padding: 0 0.5rem;
+}
+.cardComent-content-img {
+  border-radius: 100%;
+}
+.cardComent-content-calif {
+  display: flex;
+  align-items: center;
+  color: #f4dc00;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+.cardComent-content-calif > div {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.cardComent-content-calif > div > h2 {
+  color: black;
+  font-weight: bold;
+}
